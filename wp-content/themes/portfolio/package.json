@@ -1,0 +1,8 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "theme portfolio",
+  "main": "main.js",
+  "repository": "git@github.com:pat-m/portfolio.git",
+  "license": "MIT"
+}
