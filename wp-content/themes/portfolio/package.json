@@ -4,5 +4,8 @@
   "description": "theme portfolio",
   "main": "main.js",
   "repository": "git@github.com:pat-m/portfolio.git",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
 }
