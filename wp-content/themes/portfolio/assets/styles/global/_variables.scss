@@ -19,8 +19,8 @@ $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #000 !default;
-
+$black:    #424242 !default;
+$black-100:#212529 !default;
 $grays: () !default;
 $grays: map-merge((
   "100": $gray-100,
@@ -41,10 +41,10 @@ $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
-$green:   #28a745 !default;
+$green:   #00838F !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
-
+$green-2: #00897b !default;
 $colors: () !default;
 $colors: map-merge((
   "blue":       $blue,
@@ -62,7 +62,7 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$primary:       $blue !default;
+$primary:      $green-2 !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -536,8 +536,8 @@ $nav-pills-link-active-bg:          $component-active-bg !default;
 
 // Navbar
 
-$navbar-padding-y:                  ($spacer / 2) !default;
-$navbar-padding-x:                  $spacer !default;
+$navbar-padding-y:                  0 !default;
+$navbar-padding-x:                0 !default;
 
 $navbar-brand-font-size:            $font-size-lg !default;
 // Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link

@@ -1,0 +1,16 @@
+.vr{
+  &-post-content {
+    @extend .container;
+    background-color: $white;
+    margin-top: 120px;
+    img {
+      padding-top: 30px;
+      display: block;
+      margin: auto;
+    }
+  }
+  &-pdf{
+    height:80px;
+    width:80px;
+  }
+}

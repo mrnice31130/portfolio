@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 // Global
 @import "~bootstrap/scss/functions";
 @import "global/variables";
@@ -39,9 +39,11 @@
 @import "~bootstrap/scss/utilities";
 // Components
 @import "components/form";
+@import "components/main-nav";
 
 // Layout
 @import "layouts/front-page";
+@import "layouts/post";
 
 // Shared
 @import "shared/header";

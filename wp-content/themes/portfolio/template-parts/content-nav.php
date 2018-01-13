@@ -1,5 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/"><?= bloginfo('name'); ?></a>
+vr-header-top-bar
+<nav class="vr-header-nav">
+  <div class="vr-header-nav-logo">
+    <a href="<?= site_url(); ?>"><?= bloginfo('name'); ?></a>
+    <img src="<?= get_template_directory_uri();?>/assets/images/pp.PNG" alt="...">
+  </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>

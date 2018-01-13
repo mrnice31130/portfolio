@@ -5,9 +5,11 @@
  * @package portfolio
  */
 ?>
-</div>
-	<footer role="footer">
 
+	<footer id="footer" role="footer">
+		<div class="container">
+		&copy; Rouzet Vincent tous droits réservés <?= date("Y"); ?>
+	</div>
 	</footer>
 </div>
 
