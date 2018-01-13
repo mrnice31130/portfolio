@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<p>single.php</p>
     <main class="row">
         <section id="main" class="col-sm-12 col-md-12 col-lg-12">
 
@@ -24,5 +24,5 @@ get_header(); ?>
     </main>
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();

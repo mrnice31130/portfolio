@@ -1,0 +1,12 @@
+
+#wrapper{
+  background-color:$gray-200;
+  background-size: cover;
+}
+.photo-css{
+  width: 100px;
+  height: 100px;
+  @extend .rounded-circle;
+  border: solid 2px $gray-900;
+  margin: 10px;
+}
