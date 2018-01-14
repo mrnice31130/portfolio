@@ -1,12 +1,14 @@
 
 #wrapper{
-  background-color:$gray-200;
+  background-color:$green-2;
   background-size: cover;
 }
-.photo-css{
-  width: 100px;
-  height: 100px;
-  @extend .rounded-circle;
-  border: solid 2px $gray-900;
-  margin: 10px;
+.card-img-top{
+ width: 314px;
+ height: 300px;
+}
+.card{
+  border:solid 3px;
+  box-shadow: 0 10px 10px rgba(0,0,0,.26);
+  margin-bottom: 20px;
 }
