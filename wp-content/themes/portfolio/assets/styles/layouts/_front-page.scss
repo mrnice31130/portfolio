@@ -4,11 +4,11 @@
   background-size: cover;
 }
 .card-img-top{
- width: 314px;
- height: 300px;
+  box-shadow: 0 10px 10px rgba(0,0,0,.26);
 }
 .card{
-  border:solid 3px;
+  border:solid 3px $gray-300;
   box-shadow: 0 10px 10px rgba(0,0,0,.26);
   margin-bottom: 20px;
+  min-height: 580px;
 }

@@ -22,4 +22,5 @@ vr-header-top-bar
             'walker'          => new bs4navwalker()
         ]);
         ?>
+        <div class="vr-recherche-nav"><?php get_search_form(true);?></div>
 </nav>

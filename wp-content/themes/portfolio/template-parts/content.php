@@ -12,7 +12,8 @@
 <article class="vr-post-content">
 	<header>
 		<img class="vr-photo-post" src="<?= get_the_post_thumbnail_url('');?>">
-		<div class="vr-title-post">
+	<div class="vr-title-post">
+		<div>
 		<?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
@@ -21,7 +22,8 @@
 		endif;
 
 		if ( 'post' === get_post_type() ) : ?>
-	</div>
+</div>
+</div>
 		<div>
 			<?php //portfolio_posted_on(); ?>
 		</div>
