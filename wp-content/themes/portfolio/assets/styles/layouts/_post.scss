@@ -5,17 +5,14 @@
     display: block;
     margin: auto;
     width: 600px;
-    background-color: $gray-900;
+    background-color: $white;
     margin-top: 120px;
-    border:solid 3px $gray-600;
+    border:solid 3px $gray-400;
     box-shadow: 0 10px 10px rgba(0,0,0,.26);
   .vr-photo-post  {
-      box-shadow: 0 10px 10px $gray-600;
-      display: block;
-      margin-top: 10px;
-      margin-left: 100px;
-      width: 400px;
-      height: 200px;
+      box-shadow: 0 10px 10px rgba(0,0,0,.26);
+      width: 594px;
+      height: 272px;
     }
   }
   &-pdf{
@@ -23,6 +20,7 @@
     margin: auto;
     height:80px;
     width:80px;
+    margin-bottom:10px;
   }
 }
 .vr-title-post{

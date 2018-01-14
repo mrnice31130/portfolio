@@ -38,7 +38,7 @@
 			<div>
 	<a href="<?php the_field('ajouter_un_pdf'); ?>">
 		<img class="vr-pdf"src="<?= get_template_directory_uri()?>/assets/images/pdf.svg">
-		<span>Télécharger</span>
+		<span></span>
 	</a>
 	</div>
 
