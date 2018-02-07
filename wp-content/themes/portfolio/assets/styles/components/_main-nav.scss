@@ -1,0 +1,35 @@
+#menu-menu-principal{
+font-size: 1.5rem;
+}
+.jumbotron{
+  margin-top: 140px;
+  background-color: $gray-400;
+  box-shadow: 0 10px 10px rgba(0,0,0,.26);
+  border: solid 1px $gray-900;
+}
+
+.vr-header {
+  &-nav {
+    @extend .navbar, .navbar-expand-lg, .navbar-dark, .fixed-top ;
+    box-shadow: 0 10px 10px rgba(0,0,0,.26);
+    background-color: $gray-900;
+    &-logo {
+      a {
+        color: $gray-200;
+        font-size: 1.2rem;
+        padding-left:10px;
+      }
+     img {
+        width: 90px;
+        height: 90px;
+        @extend .rounded-circle;
+        border: solid 3px $gray-400;
+        margin: 10px;
+      }
+      background-color:$green-2;
+    }
+  }
+}
+.vr-recherche-nav{
+  margin-right: 15px;
+}
