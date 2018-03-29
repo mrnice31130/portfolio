@@ -16,7 +16,7 @@ module.exports = {
     output: {
         filename: 'scripts/main.js',
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '../'
+        publicPath: 'wp-content/theme/portfolio'
     },
 
     module: {
@@ -35,13 +35,19 @@ module.exports = {
                     use:
                     [
                         { loader: "css-loader", options: { sourceMap: true } },
+                        { loader: "resolve-url-loader"},
                         { loader: "postcss-loader", options: { sourceMap: true } },
                         { loader: "sass-loader", options: { sourceMap: true } }
                     ]
                 })
-            }
+            },
+            {
+                test: /\.(png|jpg|gif)$/i,
+                use: "file-loader?name=[name].[ext]&publicPath=../&outputPath=images/",
+            },
         ]
     },
+ 
     stats: {
         children: false,
         performance: true,

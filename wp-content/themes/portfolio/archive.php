@@ -14,11 +14,13 @@ get_header(); ?>
             <header>
 
             </header>
-
+            <div class='container'>
+	            <div class='row'>
             <?php while ( have_posts() ) : the_post();
                 get_template_part( 'template-parts/content', get_post_format() );
             endwhile; ?>
-
+                </div>
+            </div>
             <footer>
                 <?php // pagination ?>
             </footer>

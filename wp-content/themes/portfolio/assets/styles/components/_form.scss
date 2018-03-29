@@ -1,0 +1,65 @@
+.mm-post-slide {
+  @extend .owl-carousel, .owl-theme;
+  background-color: $white;
+  border: solid 1px $gray-200;
+  &:hover {
+    .owl-prev, .owl-next {
+      visibility: visible !important;
+    }
+  }
+  &-caption {
+    background-color: rgba($white, 0.9);
+    @extend .carousel-caption;
+    border-top: solid 1px $gray-200;
+    a h4 {
+    font-size: 1.4rem;
+      padding: 0 10px;
+    }
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: $primary;
+  }
+  .owl-prev, .owl-next {
+    display: flex;
+    visibility: hidden;
+    position: absolute;
+    top: 40%;
+    background-color: rgba($green-2, 1)!important;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    i {
+      align-self: center;
+    }
+  }
+  .owl-prev {
+    left: 3%;
+  }
+  .owl-next {
+    right:3%;
+  }
+  .owl-nav {
+    margin-top: 15px;
+  }
+}
+.owl-nav {
+  margin-top: 0!important;
+}
+.owl-dot span {
+  width: 20px !important;
+  height: 20px !important;
+  margin: 10px 7px!important;
+  background-color: rgba($white, 0.4)!important;
+  border: solid 2px rgba($green, 1);
+  &:hover {
+    background-color: rgba($green, 1)!important;
+    border: solid 2px rgba($green, 1);
+  }
+}
+.owl-dots .active {
+    span {
+      background-color: rgba($green-2, 1)!important;
+      border: solid 2px rgba($green-2, 1);//
+    }
+}

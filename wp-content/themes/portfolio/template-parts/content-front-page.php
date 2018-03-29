@@ -13,29 +13,36 @@
 	<header>
 		<div class="jumbotron">
 			<div class="container">
-  <h1 class="display-4">Bienvenue,Welcome</h1>
-  <p class="lead">Vincent317@hotmail.fr</p>
-	<p class="lead">Portables : 06.59.71.00.76</p>
-	<p >76 Route de la saune 31130 Quint-Fonsegrives</p>
-  <hr class="my-4">
-  <p></p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="<?= site_url(); ?>/category/epreuve-e4" role="button">Épreuve E4</a>
-		<a class="btn btn-primary btn-lg" href="<?= site_url(); ?>/category/epreuve-e6" role="button">Épreuve E6</a>
-		<a class="btn btn-primary btn-lg" href="#" role="button">Tableaux</a>
-  </p>
-</div>
-</div>
-
+				<div class="row">
+					<div class="col-lg-6">
+						<h1 class="display-4">Bienvenue,Welcome</h1>
+						<p class="lead">Vincent317@hotmail.fr</p>
+							<p class="lead">Portables : 06.59.71.00.76</p>
+							<p >76 Route de la saune 31130 Quint-Fonsegrives</p>
+						<hr class="my-4">
+						<p></p>
+						<p class="lead">
+							<a class="btn btn-primary btn-lg" href="<?= site_url(); ?>/category/epreuve-e4" role="button">Épreuve E4</a>
+							<a class="btn btn-primary btn-lg" href="<?= site_url(); ?>/category/epreuve-e6" role="button">Épreuve E6</a>
+							<a class="btn btn-primary btn-lg" href="#" role="button">Tableaux</a>
+						</p>
+					</div>
+					<div class="col-lg-6">
+						<?php get_template_part( 'template-parts/carousel' ); ?>
+					</div>
+				</div>
+			</div>	
+		</div>
 	</header>
-
+	<div class='container'>
 <div class="row">
+	
 <?php // WP_Query arguments
 $args = array(
 	'post_type'              => array( 'post' ),
 	'post_status'            => array( 'publish' ),
 	'nopaging'               => false,
-	'posts_per_page'         => '3',
+	'posts_per_page'         => '',
 	'ignore_sticky_posts'    => true,
 	'order'                  => 'DESC',
 	'orderby'                => 'date',
@@ -57,9 +64,9 @@ if ( $query_reseau->have_posts() ) {
 		$query_reseau->the_post();
 		 ?>
 <div class="vr-file-post">
-		 <div >
-		 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="<?= the_post_thumbnail_url('large'); ?>" alt="Card image cap">
+		 <div>
+		 <div class="card">
+  <img class="card-img-top" src="<?= the_post_thumbnail_url('medium'); ?>" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title"><?= the_title();?></h4>
     <p class="tard-text"><?= the_excerpt(); ?></p>
@@ -77,6 +84,7 @@ if ( $query_reseau->have_posts() ) {
 // Restore original Post Data
 wp_reset_postdata();
  ?>
+ </div>
 </div>
 
 	<footer>

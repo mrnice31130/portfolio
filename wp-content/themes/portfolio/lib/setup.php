@@ -82,3 +82,5 @@ if ( ! function_exists( 'portfolio_setup' ) ) :
     }
 endif;
 add_action( 'after_setup_theme', 'portfolio_setup' );
+
+add_image_size( 'post-carousel', 755, 350, ['center', "center"]);
