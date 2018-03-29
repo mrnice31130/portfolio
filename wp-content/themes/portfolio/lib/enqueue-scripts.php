@@ -12,6 +12,8 @@ function portfolio_front_scripts() {
     // CDN hosted jQuery placed in the header.
     wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', array(), '3.2.1', false );
     wp_enqueue_script( 'portfolio-script', get_template_directory_uri() . '/dist/scripts/main.js', array(), '4.6.0', true );
+    wp_enqueue_script( 'montgiscard-owl-carousel', get_template_directory_uri() . '/assets/scripts/owl.carousel.min.js', array(), '2.2.0', true );
+    wp_enqueue_script( 'montgiscard-owl-post-init', get_template_directory_uri() . '/assets/scripts/owl-post-init.js', array('jquery'), '2.2.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_front_scripts' );
 
