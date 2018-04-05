@@ -2,6 +2,7 @@
 import { Styles } from '../../assets/styles/main.scss';
 import { Carousel } from 'owl.carousel/dist/owl.carousel';
 import { Carousel_init } from '../../assets/scripts/owl-post-init';
+import { Pictures } from '../scripts/pictures';
 
 // Bootstrap 4 Modules
 import 'bootstrap/js/dist/button';

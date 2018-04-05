@@ -63,3 +63,20 @@
       border: solid 2px rgba($green-2, 1);//
     }
 }
+form {
+  input ,textarea, select {
+    @extend .form-control;
+    width:800px;
+    display: block;
+    margin: auto;
+  }
+  input[type="submit"] {
+    @extend .btn;
+    padding: 10px;
+    background-color: $white;
+  }
+}
+.wpcf7-form {
+  @extend .container;
+ 
+}

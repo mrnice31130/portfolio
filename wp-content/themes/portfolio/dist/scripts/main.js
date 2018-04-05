@@ -23303,30 +23303,32 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_owl_carousel_dist_owl_carousel___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_owl_carousel_dist_owl_carousel__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_scripts_owl_post_init__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_scripts_owl_post_init___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__assets_scripts_owl_post_init__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bootstrap_js_dist_button__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bootstrap_js_dist_button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_bootstrap_js_dist_button__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_js_dist_collapse__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_js_dist_collapse___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_bootstrap_js_dist_collapse__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bootstrap_js_dist_dropdown__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bootstrap_js_dist_dropdown___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_bootstrap_js_dist_dropdown__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_bootstrap_js_dist_index__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_bootstrap_js_dist_index___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_bootstrap_js_dist_index__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_bootstrap_js_dist_util__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_bootstrap_js_dist_util___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_bootstrap_js_dist_util__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_bootstrap_js_dist_modal__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_bootstrap_js_dist_modal___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_bootstrap_js_dist_modal__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_bootstrap_js_dist_popover__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_bootstrap_js_dist_popover___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_bootstrap_js_dist_popover__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_bootstrap_js_dist_scrollspy__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_bootstrap_js_dist_scrollspy___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_bootstrap_js_dist_scrollspy__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_bootstrap_js_dist_tab__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_bootstrap_js_dist_tab___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_bootstrap_js_dist_tab__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_bootstrap_js_dist_tooltip__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_bootstrap_js_dist_tooltip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_bootstrap_js_dist_tooltip__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_bootstrap_js_dist_carousel__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_bootstrap_js_dist_carousel___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_bootstrap_js_dist_carousel__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_bootstrap_js_dist_alert__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_bootstrap_js_dist_alert___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_bootstrap_js_dist_alert__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scripts_pictures__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_js_dist_button__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bootstrap_js_dist_button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_bootstrap_js_dist_button__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bootstrap_js_dist_collapse__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bootstrap_js_dist_collapse___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_bootstrap_js_dist_collapse__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_bootstrap_js_dist_dropdown__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_bootstrap_js_dist_dropdown___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_bootstrap_js_dist_dropdown__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_bootstrap_js_dist_index__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_bootstrap_js_dist_index___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_bootstrap_js_dist_index__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_bootstrap_js_dist_util__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_bootstrap_js_dist_util___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_bootstrap_js_dist_util__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_bootstrap_js_dist_modal__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_bootstrap_js_dist_modal___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_bootstrap_js_dist_modal__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_bootstrap_js_dist_popover__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_bootstrap_js_dist_popover___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_bootstrap_js_dist_popover__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_bootstrap_js_dist_scrollspy__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_bootstrap_js_dist_scrollspy___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_bootstrap_js_dist_scrollspy__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_bootstrap_js_dist_tab__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_bootstrap_js_dist_tab___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_bootstrap_js_dist_tab__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_bootstrap_js_dist_tooltip__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_bootstrap_js_dist_tooltip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_bootstrap_js_dist_tooltip__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_bootstrap_js_dist_carousel__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_bootstrap_js_dist_carousel___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_bootstrap_js_dist_carousel__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_bootstrap_js_dist_alert__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_bootstrap_js_dist_alert___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_bootstrap_js_dist_alert__);
+
 
 
 
@@ -30583,6 +30585,25 @@ var Alert = function () {
 }($);
 //# sourceMappingURL=alert.js.map
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0), __webpack_require__(1)))
+
+/***/ }),
+/* 21 */,
+/* 22 */,
+/* 23 */,
+/* 24 */,
+/* 25 */
+/***/ (function(module, exports) {
+
+module.exports = "../images/rouzet-vincent.png";
+
+/***/ }),
+/* 26 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_images_rouzet_vincent_png__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_images_rouzet_vincent_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_images_rouzet_vincent_png__);
+
 
 /***/ })
 /******/ ]);

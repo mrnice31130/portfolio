@@ -14,7 +14,7 @@ get_header(); ?>
             <header>
 
             </header>
-            <div class='container'>
+            <div class='container' style="margin: 75px auto">
 	            <div class='row'>
             <?php while ( have_posts() ) : the_post();
                 get_template_part( 'template-parts/content', get_post_format() );
