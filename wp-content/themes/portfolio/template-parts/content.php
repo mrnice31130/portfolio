@@ -9,11 +9,13 @@
 
 ?>
 
-<div class='col-md-6 col-lg-4'>
+<div class='col-sm-12 col-md-12 col-lg-12' style="margin-top: 10px;">
 	<article class="card">
 		<header>
-			<img class="vr-photo-post"  src="<?= get_the_post_thumbnail_url($post->id, 'card');?>">
-			<div class="vr-title-post">
+			
+		</header>
+		<section class="card-body">
+		<div class="vr-title-post">
 				<?php
 				if ( is_singular() ) :
 					the_title( '<h1 class="entry-title">', '</h1>' );
@@ -21,19 +23,14 @@
 					the_title( '<h3 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h3>' );
 				endif; ?>
 			</div>
-		</header>
-
 		<?php the_content(); ?>
+		<?php $url = get_field('ajouter_un_pdf'); ?>
+		<?= do_shortcode('[pdfjs-viewer url= '. $url .' viewer_width=100% viewer_height=1000px fullscreen=false download=true print=true]'); ?>
+		</section>
 
-		<footer>
-			<?php if( get_field('ajouter_un_pdf') ): ?>
-				<div>
-					<a href="<?php the_field('ajouter_un_pdf'); ?>">
-						<img class="vr-pdf"src="<?= get_template_directory_uri()?>/assets/images/pdf.svg">
-						<span></span>
-					</a>
-				</div>
-			<?php endif; ?>
+		<footer class="card-body">
+			
 		</footer>
 	</article>
 </div>
+

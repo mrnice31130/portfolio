@@ -46,5 +46,5 @@ function montgiscard_thumbnail_upscale( $default, $orig_w, $orig_h, $new_w, $new
 }
 add_filter( 'image_resize_dimensions', 'montgiscard_thumbnail_upscale', 10, 6 );
 
-add_image_size( 'carousel', 280, 200, array( 'center', 'center' ) );
-add_image_size( 'card', 345, 250, true); 
+add_image_size( 'carousel', 540, 296, array( 'center', 'center' ) );
+add_image_size( 'card', 350, 350, true); 

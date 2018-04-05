@@ -69,7 +69,6 @@ if ( $query_reseau->have_posts() ) {
   <img class="card-img-top" src="<?= the_post_thumbnail_url('medium'); ?>" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title"><?= the_title();?></h4>
-    <p class="tard-text"><?= the_excerpt(); ?></p>
     <a href="<?= the_permalink(); ?>" class="btn btn-primary">En voir plus</a>
   </div>
 </div>

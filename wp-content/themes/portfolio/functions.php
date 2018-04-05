@@ -17,3 +17,6 @@ require get_template_directory() . '/lib/nav-walker.php';
 
 // templates Tags
 require get_template_directory() . '/lib/template-tags.php';
+
+update_option( 'siteurl', 'http://localhost:8080/site/portfolio' );
+update_option( 'home', 'http://localhost:8080/site/portfolio' );

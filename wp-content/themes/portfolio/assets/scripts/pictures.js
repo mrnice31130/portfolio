@@ -1,0 +1,1 @@
+import { Rouzet } from '../../assets/images/rouzet-vincent.png';
